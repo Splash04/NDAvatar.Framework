@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files      = 'Sources/*.swift', 
   s.license           = 'MIT'
   s.requires_arc      = true
-  s.source_files      = 'Sources/NDAvatarView/*.swift', "Source/NDAvatarView/Extensions/*.swift"
+  s.source_files      = 'Sources/NDAvatarView/*.swift', "Sources/NDAvatarView/Extensions/*.swift"
 end
