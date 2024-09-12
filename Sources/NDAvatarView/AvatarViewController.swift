@@ -4,7 +4,7 @@
 //
 //  Created by Dave Glassco on 1/5/20.
 //
-
+#if !os(macOS)
 import UIKit
 
 
@@ -12,7 +12,7 @@ public struct AvatarViewData {
     public var displayName: String
     var initials: String?
     public var avatarString: String?
-    var avatarImage: UIImage?
+    public var avatarImage: UIImage?
     var isRound: Bool?
     var cornerRoundness: CGFloat?
     var borderWidth: CGFloat?
@@ -179,3 +179,4 @@ struct ColorConfig: AvatarImageViewConfiguration {
         avatarImageView.configuration = Config()
     }
 }
+#endif
